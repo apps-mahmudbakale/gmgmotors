@@ -38,7 +38,7 @@ export default function CarDetailModal({ car, onClose, onBuyNow }: CarDetailModa
             </div>
             <div className="text-right">
               <p className="text-3xl font-bold text-blue-600">
-                ₦${(car.price * 1000).toLocaleString()}
+                ₦{(car.price * 1000).toLocaleString()}
               </p>
             </div>
           </div>

@@ -8,7 +8,7 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <Car className="h-8 w-8 text-blue-400" />
             <div>
-              <h1 className="text-2xl font-bold">GMG Motors</h1>
+              <h1 className="text-2xl font-bold">GOLDEN MAK GLOBAL MOTORS LIMITED</h1>
               <p className="text-xs text-slate-400">Premium Car Dealership</p>
             </div>
           </div>

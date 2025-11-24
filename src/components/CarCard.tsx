@@ -16,7 +16,7 @@ export default function CarCard({ car, onViewDetails }: CarCardProps) {
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
         />
         <div className="absolute top-3 right-3 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-₦${(car.price * 1000).toLocaleString()}
+₦{(car.price * 1000).toLocaleString()}
         </div>
       </div>
 

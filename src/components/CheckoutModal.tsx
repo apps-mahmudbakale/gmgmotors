@@ -64,7 +64,7 @@ export default function CheckoutModal({ car, onClose, onSubmit, isSubmitting }: 
               {car.year} {car.make} {car.model}
             </p>
             <p className="text-2xl font-bold text-blue-600 mt-2">
-              ₦${(car.price * 1000).toLocaleString()}
+              ₦{(car.price * 1000).toLocaleString()}
             </p>
           </div>
 
