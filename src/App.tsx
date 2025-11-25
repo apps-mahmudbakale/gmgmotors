@@ -310,7 +310,7 @@ function App() {
       <footer className="bg-slate-900 text-white py-8 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-slate-400">
-            &copy; 2024 GMG Motors. All rights reserved.
+            &copy; 2025 GMG Motors. All rights reserved.
           </p>
         </div>
       </footer>
