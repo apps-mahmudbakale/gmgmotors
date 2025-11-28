@@ -1,4 +1,5 @@
 import { Mail, Phone } from 'lucide-react';
+import Logo from '../logo.jpeg';
 
 export default function Header() {
   return (
@@ -6,7 +7,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-3">
-            <img src="/src/logo.jpeg" alt="Logo" className="h-[5rem] w-auto" />
+            <img src={Logo} alt="Logo" className="h-[5rem] w-auto" />
             {/* <div>
               <h1 className="text-2xl font-bold">GOLDEN MAK GLOBAL MOTORS LIMITED</h1>
               <p className="text-xs text-slate-400">Premium Car Dealership</p>
